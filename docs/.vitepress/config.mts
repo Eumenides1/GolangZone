@@ -33,9 +33,7 @@ export default defineConfig({
       {
         text: 'GO 实战项目',
         items: [
-          { text: 'Item A', link: '/item-1' },
-          { text: 'Item B', link: '/item-2' },
-          { text: 'Item C', link: '/item-3' }
+          { text: '菜鸟客栈', link: '/project/rookiestack.md' }
         ]
       },
       {
@@ -49,13 +47,26 @@ export default defineConfig({
       {
         text: '中间件设计',
         items: [
-          { text: 'Item A', link: '/item-1' },
-          { text: 'Item B', link: '/item-2' },
-          { text: 'Item C', link: '/item-3' }
+          { text: 'Web 中间件', 
+            items: [
+              {text: 'Jaguar Web', link: '/middleware/jaguarweb/jaguarweb'}
+            ]
+          },
+          { text: '数据库中间件', 
+            items: [
+              {text: 'Jaguar Orm', link: '/middleware/jaguarorm/jaguarorm'},
+              {text: 'YaoCi瑶池', link: '/middleware/jaguarorm/yaoci'}
+            ],
+          },
+          { text: 'Gin 插件', 
+            items: [
+              {text: '待更新', link: '...'}
+            ]
+          },
         ]
       },
       {
-        text: 'Go 周刊',
+        text: 'Hi~Go 周刊',
         items: [
           { text: 'Item A', link: '/item-1' },
           { text: 'Item B', link: '/item-2' },

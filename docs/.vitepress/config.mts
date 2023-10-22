@@ -25,9 +25,22 @@ export default defineConfig({
       {
         text: 'Go 简明教程',
         items: [
-          { text: 'Item A', link: '/item-1' },
-          { text: 'Item B', link: '/item-2' },
-          { text: 'Item C', link: '/item-3' }
+          { text: '语法基础', 
+            items: [
+              {text: '变量定义', link: '/middleware/jaguarweb/jaguarweb'}
+            ]
+          },
+          { text: ' Web开发', 
+            items: [
+              {text: 'gin 框架入门', link: '/middleware/jaguarorm/jaguarorm'},
+              {text: 'gorm 入门', link: '/middleware/jaguarorm/yaoci'}
+            ],
+          },
+          { text: '并发编程', 
+            items: [
+              {text: '待更新', link: '...'}
+            ]
+          },
         ]
       },
       {
@@ -39,9 +52,16 @@ export default defineConfig({
       {
         text: '算法',
         items: [
-          { text: 'Item A', link: '/item-1' },
-          { text: 'Item B', link: '/item-2' },
-          { text: 'Item C', link: '/item-3' }
+          { text: 'leetCode', 
+            items: [
+              {text: '数组', link: '/middleware/jaguarweb/jaguarweb'}
+            ]
+          },
+          { text: '面试题', 
+            items: [
+              {text: '待更新', link: '...'}
+            ],
+          }
         ]
       },
       {

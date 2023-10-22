@@ -55,15 +55,7 @@ export default defineConfig({
         ]
       },
       {
-        text: '酷的库',
-        items: [
-          { text: 'Item A', link: '/item-1' },
-          { text: 'Item B', link: '/item-2' },
-          { text: 'Item C', link: '/item-3' }
-        ]
-      },
-      {
-        text: '帅的开源',
+        text: 'Go 周刊',
         items: [
           { text: 'Item A', link: '/item-1' },
           { text: 'Item B', link: '/item-2' },

@@ -73,6 +73,11 @@ const blogTheme = getThemeConfig({
     ],
     duration: -1
   },
+  recommend: {
+    showSelf: true,
+    nextText: '下一页',
+    style: 'sidebar'
+  },
 })
 
 export { blogTheme }

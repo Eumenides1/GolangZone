@@ -22,6 +22,62 @@ export default defineConfig({
     // },
     nav: [
       { text: '首页', link: '/' },
+      {
+        text: 'Go 简明教程',
+        items: [
+          { text: 'Item A', link: '/item-1' },
+          { text: 'Item B', link: '/item-2' },
+          { text: 'Item C', link: '/item-3' }
+        ]
+      },
+      {
+        text: 'GO 实战项目',
+        items: [
+          { text: 'Item A', link: '/item-1' },
+          { text: 'Item B', link: '/item-2' },
+          { text: 'Item C', link: '/item-3' }
+        ]
+      },
+      {
+        text: '算法',
+        items: [
+          { text: 'Item A', link: '/item-1' },
+          { text: 'Item B', link: '/item-2' },
+          { text: 'Item C', link: '/item-3' }
+        ]
+      },
+      {
+        text: '中间件设计',
+        items: [
+          { text: 'Item A', link: '/item-1' },
+          { text: 'Item B', link: '/item-2' },
+          { text: 'Item C', link: '/item-3' }
+        ]
+      },
+      {
+        text: '酷的库',
+        items: [
+          { text: 'Item A', link: '/item-1' },
+          { text: 'Item B', link: '/item-2' },
+          { text: 'Item C', link: '/item-3' }
+        ]
+      },
+      {
+        text: '帅的开源',
+        items: [
+          { text: 'Item A', link: '/item-1' },
+          { text: 'Item B', link: '/item-2' },
+          { text: 'Item C', link: '/item-3' }
+        ]
+      },
+      {
+        text: '杂记',
+        items: [
+          { text: '迷茫的时候看看吧', link: '/note/tostudy' },
+          { text: 'Why Go', link: '/note/whygo' },
+          { text: 'Java To Go', link: '/note/javatogo' }
+        ]
+      },
       { text: '关于作者', link: 'https://jaguarliu.me' }
     ],
     socialLinks: [

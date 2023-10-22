@@ -88,9 +88,8 @@ export default defineConfig({
       {
         text: 'Hi~Go 周刊',
         items: [
-          { text: 'Item A', link: '/item-1' },
-          { text: 'Item B', link: '/item-2' },
-          { text: 'Item C', link: '/item-3' }
+          { text: '酷的库', link: '/gocolumn/mod/' },
+          { text: '帅的项目', link: '/gocolumn/project/' }
         ]
       },
       {

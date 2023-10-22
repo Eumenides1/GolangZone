@@ -6,6 +6,7 @@ readingTime: true
 tag:
  - 杂记
 recommend: 1
+comment: true
 top: 1
 sidebar: false
 cover: https://blog.mooncascade.com/wp-content/uploads/2019/10/go-vs-java-1.jpg
